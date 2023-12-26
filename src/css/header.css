@@ -1,0 +1,23 @@
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-logo {
+    width: 100px;
+}
+
+.ul-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ul-header li a {
+    padding: 15px;
+    transition: .3s ease-in-out;
+}
+
+.ul-header li a:hover {
+    color: blue;
+}

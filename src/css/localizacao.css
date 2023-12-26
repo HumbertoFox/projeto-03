@@ -1,0 +1,13 @@
+.section-localizacao {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.section-localizacao iframe {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    border-radius: 10px;
+}

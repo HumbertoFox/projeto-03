@@ -1,0 +1,31 @@
+.section-contato {
+    min-height: 38vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1%;
+}
+
+.endereco {
+    align-self: flex-end;
+    font-size: 12px;
+}
+
+.contatos h2,
+.redes-sociais h2 {
+    padding-bottom: 20%;
+}
+
+.contato-tel,
+.contato-cel,
+.contato-whatsapp {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.sociais {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    gap: 30px;
+}
