@@ -1,13 +1,8 @@
 .section-contato {
-    min-height: 38vh;
+    min-height: 30vh;
     display: flex;
     justify-content: space-around;
     margin-top: 1%;
-}
-
-.endereco {
-    align-self: flex-end;
-    font-size: 12px;
 }
 
 .contatos h2,
@@ -19,8 +14,28 @@
 .contato-cel,
 .contato-whatsapp {
     display: flex;
+    align-items: center;
     gap: 10px;
     padding-bottom: 10px;
+}
+
+.contato-tel a,
+.contato-cel a,
+.contato-whatsapp a {
+    font-size: 24px;
+    transition: .3s ease-in-out;
+}
+
+.contato-tel a:hover,
+.contato-cel a:hover,
+.contato-whatsapp a:hover {
+    color: rgb(27, 117, 27);
+}
+
+.endereco {
+    align-self: flex-end;
+    font-size: 12px;
+    margin-bottom: 10px;
 }
 
 .sociais {
@@ -28,4 +43,12 @@
     justify-content: center;
     font-size: 30px;
     gap: 30px;
+}
+
+.sociais li a {
+    transition: .3s ease-in-out;
+}
+
+.sociais li a:hover {
+    color: rgb(15, 15, 182);
 }

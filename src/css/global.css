@@ -16,7 +16,7 @@ body {
     position: absolute;
     background: no-repeat center;
     background-size: cover;
-    filter: brightness(70%);
+    filter: brightness(80%);
     opacity: 0;
     transition: .3s ease-in-out;
     z-index: -1;
