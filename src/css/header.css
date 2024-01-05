@@ -7,17 +7,69 @@
     width: 100px;
 }
 
+.div-logo-pedido {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.a-pedido {
+    font-weight: bold;
+}
+
+.p-pedido {
+    color: rgb(231, 212, 37);
+    transition: .3s ease-in-out;
+}
+
+.a-pedido:hover .p-pedido {
+    color: rgb(54, 221, 48);
+}
+
+.span-pedido {
+    font-size: 20px;
+    color: rgb(54, 221, 48);
+    transition: .3s ease-in-out;
+}
+
+.a-pedido:hover .span-pedido {
+    color: rgb(231, 212, 37);
+}
+
 .ul-header {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
+.ul-header li {
+    position: relative;
+}
+
 .ul-header li a {
+    font-weight: bold;
+    color: rgb(231, 212, 37);
     padding: 15px;
     transition: .3s ease-in-out;
 }
 
+.ul-header li a::after {
+    content: '';
+	position: absolute;
+	width: 0px;
+	height: 2px;
+	left: 50%;
+	bottom: -4px;
+	background-color: rgb(54, 221, 48);
+	transition: all ease-in-out .3s;
+}
+
 .ul-header li a:hover {
-    color: rgb(15, 15, 223);
+    color: rgb(54, 221, 48);
+    opacity: .6;
+}
+
+.ul-header li a:hover::after {
+    width: 100%;
+    left: 0;
 }

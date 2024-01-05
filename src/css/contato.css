@@ -29,7 +29,7 @@
 .contato-tel a:hover,
 .contato-cel a:hover,
 .contato-whatsapp a:hover {
-    color: rgb(27, 117, 27);
+    color: rgb(54, 221, 48);
 }
 
 .endereco {
@@ -50,5 +50,5 @@
 }
 
 .sociais li a:hover {
-    color: rgb(15, 15, 182);
+    color: rgb(54, 221, 48);
 }
